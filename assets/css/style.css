@@ -37,6 +37,12 @@ h2 {
     font-weight: bold;
 }
 
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
 ul {
     margin: 2em 0 0 5%;
     color: #DFE2DB;
@@ -46,10 +52,11 @@ ul {
 }
 
 .maintext {
-    margin-top: 1em;
+    margin: 1em 0;
     font-weight: bold;
     font-size: 30px;
     color: #DFE2DB;
+    line-height: 1.2em;
 }
 
 .main {
@@ -80,6 +87,13 @@ ul {
     color: #FFF;
     padding: 20px;
     min-height: 300px;
+    display: none;
+}
+
+.profile-pic {
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: 600px;
 }
 
 .footer {
@@ -143,11 +157,11 @@ ul {
 /* Theme 1 */
 
 .theme_1 a {
-    color: #E3AE57;
+    color: #DFE2DB;
 }
 
 .theme_1 a:hover {
-    color: white;
+    color: #FFF056;
 }
 
 
@@ -180,7 +194,7 @@ ul {
 }
 
 .theme_4 a:hover {
-    color: : white;
+    color: #FFF056;
 }
 
 @media screen and (max-width: 768px) {
@@ -190,15 +204,21 @@ ul {
     .detailscontainer {
         width: 100%;
         text-align: left;
+        margin-top: 3em;
     }
     .navbar {
+        top: 0px;
+        position: fixed;
         text-align: center;
         width: 100%;
-        margin: 0px;
+        margin: 0px 0px 0px -8%;
     }
     #navbar-links {
         margin: 10px auto;
         word-spacing: 20px;
+    }
+    ul {
+        margin: 0;
     }
     li {
         display: inline;
