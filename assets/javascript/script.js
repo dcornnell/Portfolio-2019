@@ -1,10 +1,9 @@
 $(document).ready(function() {
-
+    //loads the brandstatement
     $('.linkdetails[data-link=0]').show();
 
-
+    // changes the "view" on the page
     $(".link").on("click", function() {
-
 
         $('.linkdetails').hide();
         $('.linkdetails[data-link=' + $(this).data('link') + ']').fadeIn({
@@ -15,6 +14,7 @@ $(document).ready(function() {
 
     })
 
+    //changes page styling
 
     $("#theme_1").click(function() {
         var newClass = $(this).val();
