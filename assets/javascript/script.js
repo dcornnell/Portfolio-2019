@@ -26,6 +26,7 @@ $(document).ready(function() {
         $('.linkdetails').css("color", "#DC3D24");
         $('.thumbnail_container').css("border", "5px solid #E3AE57");
         $('.footer').css("background-color", "#232B2B");
+        $('.navbar').css("background-color", "#232B2B");
         $('.maintext').css("color", "#E3AE57");
         $('.visible-link').css("color", "#ffffff");
     });
@@ -41,6 +42,7 @@ $(document).ready(function() {
         $('.linkdetails').css("color", "#ffffff");
         $('.thumbnail_container').css("border", "5px solid #000000");
         $('.footer').css("background-color", "#8A0651");
+        $('.navbar').css("background-color", "#8A0651");
         $('.maintext').css("color", "#000000");
         $('.visible-link').css("color", "#424242");
     });
@@ -55,6 +57,7 @@ $(document).ready(function() {
         $('.linkdetails').css("color", "#DC5B21");
         $('.thumbnail_container').css("border", "5px solid #383127");
         $('.footer').css("background-color", "#E4DBBF");
+        $('.navbar').css("background-color", "#E4DBBF");
         $('.maintext').css("color", "#383127");
         $('.visible-link').css("color", "#70AB8F");
     });
@@ -69,6 +72,7 @@ $(document).ready(function() {
         $('.linkdetails').css("color", "#ffffff");
         $('.thumbnail_container').css("border", "5px solid #ffffff");
         $('.footer').css("background-color", "#191919");
+        $('.navbar').css("background-color", "#191919");
         $('.maintext').css("color", "#DFE2DB");
         $('.visible-link').css("color", "#FFF056");
     });

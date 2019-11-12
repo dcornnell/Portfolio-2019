@@ -10,6 +10,10 @@ select {
     display: none;
 }
 
+i {
+    font-style: italic;
+}
+
 a {
     text-decoration: none;
     color: #DFE2DB;
@@ -70,13 +74,14 @@ ul {
 
 .navbar {
     margin-top: 40px;
-    width: 30%;
+    width: 25%;
     display: inline-block;
     float: left;
+    background-color: #191919;
 }
 
 .detailscontainer {
-    width: 60%;
+    width: 65%;
     display: inline-block;
     margin-bottom: 30px;
     text-align: right;
@@ -115,23 +120,20 @@ ul {
     margin-bottom: 15px;
     font-size: .9rem;
     text-align: left;
-    min-height: 230px;
     width: 100%;
+    overflow: auto;
 }
 
 .thumbnail_container {
-    margin: 5px;
+    margin: 2.5em 0em;
     display: inline-block;
     border: 5px solid #DFE2DB;
     width: 30%;
-    max-height: 200px;
-    position: relative;
-    float: left;
-    overflow: auto;
 }
 
 .thumbnail {
     width: 100%;
+    margin-bottom: -15px;
 }
 
 .description {
