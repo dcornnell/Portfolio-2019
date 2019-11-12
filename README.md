@@ -12,6 +12,6 @@ A web portfolio, with a basic bio, projects and contact info. i based the basic 
 -Jquery
 
 ## Future Improvements
-- []Move style changes to Objects to dry out the javascript code
-- []Create a constructor function to create "projects" and then add them to The dom from an external file so the index.html doesn't contain so much code.
-- []Move this site to a custom host or at least to the basic dcornnell.github.io page.
+- Move style changes to Objects to dry out the javascript code
+- Create a constructor function to create "projects" and then add them to The dom from an external file so the index.html doesn't contain so much code.
+- Move this site to a custom host or at least to the basic dcornnell.github.io page.
