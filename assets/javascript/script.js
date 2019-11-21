@@ -1,3 +1,4 @@
+console.log(projects);
 $(document).ready(function() {
     //loads the brandstatement
     $('.linkdetails[data-link=0]').show();
@@ -13,6 +14,30 @@ $(document).ready(function() {
 
 
     })
+
+    for (let i = 0; i < projects.length; i++) {
+        const project = `<div class='project'>
+        <div class='thumbnail_container'>
+            <a target="_blank" href="${projects[i].link}"><img class="thumbnail" src="assets/images/${projects[i].image}" /></a>
+        </div>
+        <div class='description'>
+            <div class='title'>
+                <a target="_blank" class="visible-link" href="${projects[i].link}">${projects[i].title}</a>
+            </div>
+            <p>
+                ${projects[i].description}
+            </p>
+            <p>
+                ${projects[i].technologies}
+            </p>
+            <p>
+                <a target="_blank" class="visible-link" href="${projects[i].github}">check it out on github</a>
+            </p>
+        </div>
+    </div>`
+
+        $('#project-holder').append(project);
+    }
 
     //changes page styling
 
