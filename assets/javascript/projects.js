@@ -7,6 +7,14 @@ const projects = [{
         image: "/daily_booze.png"
     },
     {
+        title: "Job Locator",
+        link: "https://sheltered-peak-49763.herokuapp.com/",
+        github: "https://github.com/dcornnell/Job-Locator",
+        description: "A Web site for job searchers that displays a map of a chosen area. The user will be able to select search parameters distance, job position, location, etc. The map will show the locations of job postings in the specified area. If users log in their previous searches will be saved.",
+        technologies: "A Group Project made with JavaScript, Node.js Express.js HTML, CSS. Modules we used include: bcrypt passport, and express sessions. API used include: Jooble API, Google Maps and Places",
+        image: "/job.png"
+    },
+    {
         title: "Bamazon",
         link: "https://lit-oasis-31305.herokuapp.com/",
         github: "https://github.com/dcornnell/bamazon",
