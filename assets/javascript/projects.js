@@ -15,6 +15,14 @@ const projects = [{
         image: "/job.png"
     },
     {
+        title: "Weekly World Scrape",
+        link: "https://weeklyworldscraper.herokuapp.com/",
+        github: "https://github.com/dcornnell/NewsScraper",
+        description: "A Web site that scrapes WeeklyWorldNews.com using Cheerio.js for news stories.  Users can view stories and leave comment on them.  ",
+        technologies: "HTML, CSS, JavaScript, Node, MongoDB and Mongoose Cheerio. Deployed on heroku",
+        image: "/wwscrape.png"
+    },
+    {
         title: "Bamazon",
         link: "https://lit-oasis-31305.herokuapp.com/",
         github: "https://github.com/dcornnell/bamazon",
