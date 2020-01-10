@@ -1,5 +1,15 @@
 const projects = [
   {
+    title: "Seafarer",
+    link: "https://seafarer.herokuapp.com/",
+    github: "https://github.com/dcornnell/Seafarer",
+    description:
+      "A Web Application for the display of historical sea journeys. The app displays maps of journeys as well as information about the events, ships, and people involved. The pupose of this app is to teach users about the history of seafarering in a visual and engaging way.",
+    technologies:
+      "Final Project made with the MERN stack(Mongo Express.js, React.js Node.js). Uses Leaflet.js for maps",
+    image: "/seafarer.png"
+  },
+  {
     title: "Daily Booze",
     link: "https://dcornnell.github.io/WeatherDrink/",
     github: "https://github.com/dcornnell/WeatherDrink",
